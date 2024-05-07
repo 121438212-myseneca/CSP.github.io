@@ -1,14 +1,23 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
 @font-face {
     font-family: bebas;
     src: url(BEBAS-REGULAR.OTF);
 }
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    min-height: 98vh;
+
 }
 
 .centered {
@@ -21,12 +30,9 @@ body {
     background-size: cover;
     background-color: #191919;
     color: #ffffff;
-    /* Removed the extra semicolon here */
-}
-
-body {
     font-family: bebas;
     font-size: 3.6em;
+    min-height: 100vh;
 }
 
 a {
